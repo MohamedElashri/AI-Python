@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import torch
-from torch import nn
 import torch.nn.functional as F
-from torchvision import datasets, transforms,models
 from args import get_input_args
 from utils import load_chk,process_image
 import json

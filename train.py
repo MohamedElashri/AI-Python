@@ -6,7 +6,7 @@ from torch import optim
 import torch.nn.functional as F
 from torchvision import datasets, transforms,models
 from args import get_input_args
-from utils import test, save_chk, validate, process_image
+from utils import test, save_chk, validate
 from collections import OrderedDict
 
 in_args=get_input_args('train')
